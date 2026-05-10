@@ -1,5 +1,8 @@
 # k8s-doctor
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python](https://img.shields.io/badge/python-3.11+-blue.svg)
+
 > Audit Kubernetes manifests in a GitHub repository. Paste a URL, get a health report.
 
 ```bash
@@ -29,8 +32,6 @@ k8s-doctor https://github.com/your-org/your-app
 ## Setup
 
 ```bash
-pip install k8s-doctor
-
 # Optional — for private repos and AI analysis
 export GITHUB_TOKEN=ghp_...
 export ANTHROPIC_API_KEY=sk-ant-...
